@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Shortener\UrlShortener\UrlShortener;
+use ArirahShortener\UrlShortener\UrlShortener;
 
 final class tinyUrlTest extends TestCase
 {

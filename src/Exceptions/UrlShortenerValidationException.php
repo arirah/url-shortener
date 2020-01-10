@@ -1,5 +1,5 @@
 <?php
-namespace Shortener\UrlShortener\Exceptions;
+namespace ArirahShortener\UrlShortener\Exceptions;
 use Exception;
 class UrlShortenerValidationException extends Exception
 {

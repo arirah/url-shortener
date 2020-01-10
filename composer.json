@@ -1,5 +1,5 @@
 {
-  "name":"shortener/url-shortener",
+  "name":"arirah-shortener/url-shortener",
   "description":"URL shortener service with popular URL shortener provider",
   "type":"library",
   "authors":[
@@ -17,7 +17,7 @@
     "phpunit/phpunit": "^8"
   },
   "autoload":{
-    "psr-4":{   "Shortener\\UrlShortener\\":["src/","src/Providers/"] },
+    "psr-4":{   "ArirahShortener\\UrlShortener\\":["src/","src/Providers/"] },
     "files": [
       "src/lib/bitly.php"
     ]

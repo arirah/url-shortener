@@ -1,6 +1,6 @@
 <?php
-namespace Shortener\UrlShortener\ValueObjects;
-use Shortener\UrlShortener\Exceptions\UrlShortenerValidationException;
+namespace ArirahShortener\UrlShortener\ValueObjects;
+use ArirahShortener\UrlShortener\Exceptions\UrlShortenerValidationException;
 
 class AccessToken
 {
@@ -13,7 +13,7 @@ class AccessToken
      */
     public function __construct(string $access_token)
     {
-        $this->access_token = $access_token ;//$this->setAccessToken($access_token);
+        $this->access_token = $access_token;
     }
 
     /**

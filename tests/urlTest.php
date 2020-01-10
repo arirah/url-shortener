@@ -10,7 +10,7 @@ final class urlTest extends TestCase
     public function testValidUrl()
     {
         $longUrl = "https://news.google.com/?hl=en-US&gl=US&ceid=US:en";
-        $url = new Shortener\UrlShortener\ValueObjects\Url($longUrl);
+        $url = new ArirahShortener\UrlShortener\ValueObjects\Url($longUrl);
 
         $this->assertTrue($url->getUrl() === 'https://news.google.com/?hl=en-US&gl=US&ceid=US:en');
     }
@@ -18,7 +18,7 @@ final class urlTest extends TestCase
     public function testToStringUrl()
     {
         $longUrl = "https://news.google.com/?hl=en-US&gl=US&ceid=US:en";
-        $url = new Shortener\UrlShortener\ValueObjects\Url($longUrl);
+        $url = new ArirahShortener\UrlShortener\ValueObjects\Url($longUrl);
 
         $this->assertSame($url->__toString(),'https://news.google.com/?hl=en-US&gl=US&ceid=US:en');
     }
@@ -27,8 +27,8 @@ final class urlTest extends TestCase
     {
         $longUrl = "https://news.google.com/?hl=en-US&gl=US&ceid=US:en";
 
-        $url1 = new Shortener\UrlShortener\ValueObjects\Url($longUrl);
-        $url2 = new Shortener\UrlShortener\ValueObjects\Url($longUrl);
+        $url1 = new ArirahShortener\UrlShortener\ValueObjects\Url($longUrl);
+        $url2 = new ArirahShortener\UrlShortener\ValueObjects\Url($longUrl);
 
 
         $this->assertEquals($url1, $url2);

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Shortener\UrlShortener\ValueObjects;
+namespace ArirahShortener\UrlShortener\ValueObjects;
 
 
 class ShortenUrl extends Url

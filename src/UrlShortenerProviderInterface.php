@@ -1,9 +1,9 @@
 <?php
 
-namespace Shortener\UrlShortener;
+namespace ArirahShortener\UrlShortener;
 
-use Shortener\UrlShortener\ValueObjects\ShortenUrl;
-use Shortener\UrlShortener\ValueObjects\Url;
+use ArirahShortener\UrlShortener\ValueObjects\ShortenUrl;
+use ArirahShortener\UrlShortener\ValueObjects\Url;
 
 interface UrlShortenerProviderInterface
 {

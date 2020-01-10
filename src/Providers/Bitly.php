@@ -1,11 +1,11 @@
 <?php
 
-namespace Shortener\UrlShortener;
+namespace ArirahShortener\UrlShortener;
 
-use Shortener\UrlShortener\Exceptions\UrlShortenerProviderException;
-use Shortener\UrlShortener\ValueObjects\AccessToken;
-use Shortener\UrlShortener\ValueObjects\ShortenUrl;
-use Shortener\UrlShortener\ValueObjects\Url;
+use ArirahShortener\UrlShortener\Exceptions\UrlShortenerProviderException;
+use ArirahShortener\UrlShortener\ValueObjects\AccessToken;
+use ArirahShortener\UrlShortener\ValueObjects\ShortenUrl;
+use ArirahShortener\UrlShortener\ValueObjects\Url;
 use function bitly_get;
 
 
