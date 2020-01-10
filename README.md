@@ -30,13 +30,13 @@ Currently we have two providers bitly and tinyurl more will be added soon.
 ##### TinyUrl
 In your file use like this , you must have to set provider instance :
 ``` php
-$shortener =  new UrlShortener(new \Shortener\UrlShortener\TinyUrl());
+$shortener =  new UrlShortener(new \ArirahShortener\UrlShortener\TinyUrl());
 ```
 
 ##### Bitly
 For bitly you need to set API access_token
 ``` php
-$shortener =  new UrlShortener(new \Shortener\UrlShortener\Bitly('f7bb93c3ae74d10db0de48e9e038f13000e07d05'));
+$shortener =  new UrlShortener(new \ArirahShortener\UrlShortener\Bitly('f7bb93c3ae74d10db0de48e9e038f13000e07d05'));
 ```
 
 Currently we have two provider bitly and tiny url. Default provider is tinyurl.
@@ -49,8 +49,8 @@ Example :
 
 #BitLy
 try {
-    $access_token = new Shortener\UrlShortener\AccessToken('f7bb93c3ae74d10db0de48e9e038f13000e07d05');
-    $shortener =  new UrlShortener(new Shortener\UrlShortener\Bitly($access_token));
+    $access_token = new ArirahShortener\UrlShortener\AccessToken('f7bb93c3ae74d10db0de48e9e038f13000e07d05');
+    $shortener =  new UrlShortener(new ArirahShortener\UrlShortener\Bitly($access_token));
     echo (string) $shortener->shorten('https://news.google.com/?hl=en-US&gl=US&ceid=US:en');
 } catch (Exception $e) {
     echo $e->getMessage() ;
