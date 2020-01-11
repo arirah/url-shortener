@@ -1,6 +1,16 @@
 {
   "name":"arirah-shortener/url-shortener",
   "description":"URL shortener service with popular URL shortener provider",
+  "license": "MIT",
+  "keywords": [
+      "Shorten",
+      "URL",
+      "URL-Shortener",
+      "URL Shortener",
+      "bitly",
+      "Bit.ly",
+      "Laravel"
+    ],
   "type":"library",
   "authors":[
     {
@@ -21,5 +31,6 @@
     "files": [
       "src/lib/bitly.php"
     ]
-  }
+  },
+  "minimum-stability": "stable"
 }
