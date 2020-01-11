@@ -17,7 +17,7 @@ Docker phpunit tests command : `docker run --rm -v $(pwd):/app -w /app php:cli p
 Use the package manager composer (https://getcomposer.org/doc/04-schema.md) to install URL shortener.
 
 ```bash
-composer require arirah-shortener/url-shortener
+composer require arirah-shortener/url-shortener:dev-master
 ```
 
 
